@@ -1,0 +1,2 @@
+# local_labo_wordpress
+ローカル環境でwordpressの実験をするためのプロジェクトです。
