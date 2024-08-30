@@ -10,7 +10,7 @@ get_header();
 ?>
 
 	<div>
-		<main></main>
+		<main>テストです</main>
 	</div>
 
 <?php

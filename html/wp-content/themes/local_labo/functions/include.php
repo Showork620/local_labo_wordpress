@@ -40,7 +40,7 @@ function add_scripts() {
 	 * WordPress提供のjquery.jsを読み込まない
 	 */
 	wp_deregister_script( 'jquery' );
-	wp_enqueue_script( 'js', get_stylesheet_directory_uri() . '/assets/js/index.js', array(), '1.0.0', true );
+	wp_enqueue_script( 'js', get_stylesheet_directory_uri() . '/assets/js/main.js', array(), '1.0.0', true );
 }
 
 add_action( 'wp_enqueue_scripts', 'add_scripts' );
