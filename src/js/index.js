@@ -3,7 +3,7 @@
 // ============================================================
 
 // メインのSCSSファイルをインポート
-import './assets/scss/style.scss';
+import '@scss/style.scss';
 
 // JavaScriptモジュールをインポート
 // import './js/navigation.js';
