@@ -49,5 +49,5 @@ wp-config.php
 node_modules
 
 # dist
-/wp-content/themes/**/css/
-/wp-content/themes/**/js/
+/wp-content/themes/local_labo/assets/css/
+/wp-content/themes/local_labo/assets/js/
