@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+// ============================================================
+//  object/project/_keyboad-pallet.scss
+// ============================================================
+
+.p-keyboard-pallet {
+  height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+
+	&__cell {
+		border: 0px solid #000;
+		transition: transform 0.5s;
+		transform: scale(0.5) rotate(0deg);
+
+		&::after {
+			content: '';
+			display: block;
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-color: rgb(from #fff r g b / 0);
+			transform-origin: center center;
+			transition: background-color 0.3s, transform 0.3s;
+		}
+
+		&.is-active {
+			transform: scale(1) rotate(0deg);
+			
+			&::after {
+				background-color: rgba(from #09f r g b / 0.75);
+			}
+		}
+
+		&[data-pressed-count="1"] {
+			transform: scale(1.5) rotate(0deg);
+		}
+
+		&[data-pressed-count="2"] {
+			transform: scale(2.25) rotate(0deg);
+		}
+
+		&[data-pressed-count="3"] {
+			transform: scale(3.275) rotate(0deg);
+		}
+
+		&[data-pressed-count="4"] {
+			transform: scale(5.063) rotate(0deg);
+		}
+
+		&[data-pressed-count="5"] {
+			transform: scale(0) rotate(720deg);
+		}
+	}
+}
