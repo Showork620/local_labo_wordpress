@@ -6,7 +6,7 @@
 import '@scss/style.scss';
 
 // JavaScriptモジュールをインポート
-// import './js/navigation.js';
+import './keydown.js';
 // import './js/customizer.js';
 
 // 画像をインポート（必要な場合）
