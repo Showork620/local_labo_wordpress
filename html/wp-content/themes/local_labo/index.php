@@ -17,7 +17,7 @@ get_header();
 		<main>
 			<div class="p-keyboard-pallet">
 				<?php // 12*4 のbox要素を配置. ?>
-				<?php for ($i = 1; $i <= 48; $i++) : ?>
+				<?php for ($i = 1; $i <= 12; $i++) : ?>
 					<div class="p-keyboard-pallet__cell js-pallet-cell" data-key-number="<?php echo $i ?>" data-pressed-count="0">
 					</div>
 				<?php endfor; ?>
